@@ -137,11 +137,12 @@
    #header-image-menu{
     position: relative;
     background-position: center;
-    background:#E84A1D;
+    background:#35424A;
    }
    #header-image-menu img{
         width: 100%;
         object-fit: none;
+        height: 50vh;
    }
    #image-text{
         position: absolute;
