@@ -1,0 +1,13 @@
+.language { 
+    background-color: purple;
+    font-weight: bold;
+    color:white;
+}
+#aloha {
+    letter-spacing: 8px;
+    font-variant: small-caps;
+    background: green;
+}
+
+th { background-color: skyblue; text-align: left; }
+table { border: solid; border-color: black;}
