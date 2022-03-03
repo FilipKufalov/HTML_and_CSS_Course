@@ -14,4 +14,6 @@ h3, a { color: #ae7182 }
 h1 { color: #ae7182, text-shadow: 2px 2px 8px #C0C0F3 } 
 th { border-color: #fff3e3; text-align: center }
 table { border: solid; border-color: #262b53 }
+div { width: 240px; padding: 10px; border: 5px solid white; margin: 10px; margin-right: 60px}
+div.float-left { float: left }
 #quote {font-size: 0.75em; text-indent: 4em; line-height: 2em }
