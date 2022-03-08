@@ -1,0 +1,41 @@
+.container {
+    padding: 15px
+}
+.list {
+    width: 60%;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
+}
+.todo {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em;
+    font-size: 28px;
+}
+.overdue {
+    color: red;
+}
+.orange {
+    color: orangered;
+}
+.green {
+    color: rgb(121, 194, 11);
+}
+.icon {
+    float: left;
+    font-size: 22px;
+    margin: 12px;
+}
+.todo-desc {
+    float: left;
+}
+.desc {
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+}
+.checkbox {
+    float: right;
+}
