@@ -1,0 +1,26 @@
+ul {
+  margin-top: 30px;
+  display: flex;
+  list-style-type: none;
+}
+ul li {
+  /* display: inline; */
+  border-left: 1px solid black;
+  border-top: 3px solid black;
+  border-right: 1px solid black;
+  border-bottom: 4px solid black;
+  padding: 7px;
+  /* margin-left: -5px; */
+}
+ol {
+  margin-top: 30px;
+  display: flex;
+  list-style-type: none;
+}
+ol li::after {
+  content: "/";
+  margin: 0 5px;
+}
+ol li:last-child::after {
+  content: "";
+}
