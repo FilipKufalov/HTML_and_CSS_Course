@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+  }
+  
+  .grid3columns {
+    grid-template-columns: auto auto auto;
+  }
+  
+  .gridgap20 {
+    grid-gap: 20px;
+  }
+
+  .grid-item4 {
+      grid-column: 1 / 4;
+  }
