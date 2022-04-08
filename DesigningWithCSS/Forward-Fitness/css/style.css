@@ -74,6 +74,15 @@ nav li:first-child {
   border-top: none;
 }
 
+/* Show mobile class, hide tablet-desctop class */
+.mobile {
+  display: block;
+}
+
+.tablet-desktop {
+  display: none;
+}
+
 .map {
   border: 2px solid #000;
   width: 95%;
@@ -93,6 +102,38 @@ main {
 
 .mobile h3 {
   text-shadow: 5px 5px 8px #ccc;
+}
+
+article {
+  padding: 2%;
+}
+
+article h3 {
+  text-align: center;
+}
+
+article img {
+  margin: 0 auto;
+}
+
+article ul {
+  margin-left: 10%;
+}
+
+article:nth-of-type(2) {
+  background-color: rgba(204, 204, 204, 0.3);
+}
+
+aside {
+  text-align: center;
+  font-size: 1.25;
+  font-style: italic;
+  font-weight: bold;
+  padding: 2%;
+  background-color: rgba(204, 204, 204, 0.5);
+  box-shadow: 5px 5px 8px #000;
+  text-shadow: 5px 5px 5px #b3b3b3;
+  border-radius: 0 15px;
 }
 
 main p {
@@ -189,6 +230,12 @@ footer p a {
   margin: 0 2%;
 }
 
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
 /* Show mobile class, hide tablet-desktop class */
 @media screen and (min-width: 680px) {
   .mobile {
@@ -243,6 +290,12 @@ footer p a {
     font-size: 1.25em;
   }
 
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+  }
+
   .map {
     width: 600px;
     height: 450px;
@@ -255,6 +308,10 @@ footer p a {
 
   h1 {
     text-align: center;
+  }
+
+  .pic-text {
+    font-size: 0.75em;
   }
 
   .container {
