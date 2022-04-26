@@ -33,3 +33,14 @@
 .quote {
     font-style: italic;
 }
+
+.footer-list-item li {
+    margin-left: 4%;
+    list-style: none;
+    text-decoration: underline;
+    /* text-decoration: none; */
+}
+
+.footer-list-item li a {
+    color: white;
+}
