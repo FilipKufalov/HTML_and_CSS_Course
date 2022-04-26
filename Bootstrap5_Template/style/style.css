@@ -26,6 +26,10 @@
     align-items: center;
 }
 
+.align-self {
+    align-self: center;
+}
+
 .quote {
     font-style: italic;
 }
