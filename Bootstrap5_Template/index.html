@@ -1,74 +1,263 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <title>Bootstrap Template</title>
-  </head>
-  <body>
+
+    <style>
+        .width-50 {
+            width: 40%;
+        }
+
+        .p-gray p {
+            color: gray;
+        }
+
+        .p-antiquewhite p {
+            color: antiquewhite;
+        }
+
+        .header-white h1, h3 {
+            color: white;
+        }
+
+        .content-center {
+            place-content: center;
+        }
+
+        .place-self {
+            place-self: center;
+        }
+
+        .align-items {
+            align-items: center;
+        }
+
+        .quote {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
     <!-- Header & Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Start Bootstrap</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Blog
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">1</a></li>
-                  <li><a class="dropdown-item" href="#">2</a></li>
-                  <li><a class="dropdown-item" href="#">3</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Portfolio
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">1</a></li>
-                  <li><a class="dropdown-item" href="#">2</a></li>
-                  <li><a class="dropdown-item" href="#">3</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">1</a></li>
+                                <li><a class="dropdown-item" href="#">2</a></li>
+                                <li><a class="dropdown-item" href="#">3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">1</a></li>
+                                <li><a class="dropdown-item" href="#">2</a></li>
+                                <li><a class="dropdown-item" href="#">3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid theme-light bg-dark py-5 gap-5 content-center d-flex">
+            <div class="col-lg-8 width-50 header-white p-gray place-self my-5">
+                <h1>A Bootstrap 5 template for modern businesses</h1>
+                <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular
+                    front-end open source toolkit!</p>
+                <button type="button" class="btn btn-primary">Get Started</button>
+                <button type="button" class="btn btn-outline-secondary">Learn More</button>
+            </div>
+            <div class="col-lg-4 width50">
+                <img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="">
+            </div>
         </div>
-      </nav>
+    </header>
+
+    <!-- Main -->
+    <div class="container d-flex justify-content-between py-5">
+        <div>
+            <h2>A better way to start building.</h2>
+        </div>
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col mb-3 h-100">
+                        <i class="bi bi-collection text-light bg-primary p-1 rounded-3 px-2"></i>
+                        <h4 class="mt-2">Featured title</h4>
+                        <p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more
+                            text.</p>
+                    </div>
+                    <div class="col mb-3 h-100">
+                        <i class="bi bi-house-door text-light bg-primary p-1 rounded-3 px-2"></i>
+                        <h4 class="mt-2">Featured title</h4>
+                        <p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-3 h-100">
+                        <i class="bi bi-toggles2 text-light bg-primary p-1 rounded-3 px-2"></i>
+                        <h4 class="mt-2">Featured title</h4>
+                        <p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
+                        </p>
+                    </div>
+                    <div class="col mb-3 h-100">
+                        <i class="bi bi-toggles2 text-light bg-primary p-1 rounded-3 px-2"></i>
+                        <h4 class="mt-2">Featured title</h4>
+                        <p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quote -->
+    <div class="container text-center">
+        <div class="width-50">
+            <p class="fst-italic">"Working with Start Bootstrap templates has saved me tons of development time when
+                building new projects! Starting with a Bootstrap template just makes things easier!"</p>
+        </div>
+        <div class="width-50">
+            <p><img class="rounded" src="https://dummyimage.com/40x40/ced4da/6c757d" alt=""> Tom Ato <span
+                    class="blue">/</span> CEO, Pomodoro</p>
+        </div>
+    </div>
+
+    <!-- From our Blog -->
+    <div>
+        <h3>From our blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad nisi possimus velit repellendus, totam ea
+            officia suscipit at reiciendis.</p>
+    </div>
+
+    <!-- Cards -->
+    <div class="container gap-5 d-flex mb-5">
+        <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/600x400/343a40/6c757d" class="card-img-top" alt="Dummy Image">
+            <div class="card-body">
+                <h5 class="card-title">Blog post title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <div>
+                    <img class="rounded-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
+                    <h5 class="card-title">Kelly Rowan</h5>
+                    <p class="card-text">March 12, 2022 - 6 min read</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/600x400/343a40/6c757d" class="card-img-top" alt="Dummy Image">
+            <div class="card-body">
+                <h5 class="card-title">Another blog post title</h5>
+                <p class="card-text">This text is a bit longer to illustrate the adaptive height of each card. Some
+                    quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div>
+                    <img class="rounded-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
+                    <h5 class="card-title">Josiah Barclay</h5>
+                    <p class="card-text">March 23, 2022 - 4 min read</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/600x400/343a40/6c757d" class="card-img-top" alt="Dummy Image">
+            <div class="card-body">
+                <h5 class="card-title">The last blog post title is a little bit longer than the others</h5>
+                <p class="card-text">Some more quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <div>
+                    <img class="rounded-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
+                    <h5 class="card-title">Evelyn Martinez</h5>
+                    <p class="card-text">April 2, 2022 - 10 min read</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="container bg-primary theme-light rounded-3 p-3">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 p-antiquewhite">
+                <h3 class="header-white">New products, delivered to you.</h3>
+                <p>Sign up for our newsletter for the latest updates.</p>
+            </div>
+            <div class="col-lg-4 p-antiquewhite">
+                <form class="input-group mb-3" id="register-newsletter">
+                    <input class="form-control" type="text" name="newsletter" required=""
+                        placeholder="Enter your email address">
+                    <input type="submit" class="btn btn-outline-light" value="Sign Up">
+                </form>
+                <p>We care about privacy, and will never share your data.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <!-- <footer>
+        <div class="container bg-dark">
+            <p>Copyright Your Website 2022</p>
+        </div>
+    </footer> -->
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
