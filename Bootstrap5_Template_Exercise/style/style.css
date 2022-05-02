@@ -1,0 +1,46 @@
+.width-50 {
+    width: 40%;
+}
+
+.p-gray p {
+    color: gray;
+}
+
+.p-antiquewhite p {
+    color: antiquewhite;
+}
+
+.header-white h1, h3 {
+    color: white;
+}
+
+.content-center {
+    place-content: center;
+}
+
+.place-self {
+    place-self: center;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.align-self {
+    align-self: center;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.footer-list-item li {
+    margin-left: 4%;
+    list-style: none;
+    text-decoration: underline;
+    /* text-decoration: none; */
+}
+
+.footer-list-item li a {
+    color: white;
+}
